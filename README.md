@@ -1,3 +1,4 @@
+# self-miner
 It's Fully auomated tool for recon
 
 self minner tool Installnation steps:

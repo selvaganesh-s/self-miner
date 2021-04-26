@@ -10,7 +10,7 @@ self minner tool Installnation steps:
   5) chmod +x miner.txt
   6) ./miner_zsh.sh
   
-  # self-miner tool Example :
+   self-miner tool Example :
     
     Enter Your Target Domain Ex: google.com 
     Enter the Github Tokens : zxajaljdladhkhkhd

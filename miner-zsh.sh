@@ -94,7 +94,7 @@ sleep 1
 print "$Green" "<<< SUBLIST3R STARTED >>>"
 print "$Blue"  "<<< Domain = $dm >>>"
 echo " "
-python3 ~/Tools/Sublist3r/sublist3r.py -d flipkart.com -o ~/Recon/$dm/SubdomainEnumeration/sublist3r.txt   
+python3 ~/Tools/Sublist3r/sublist3r.py -d $dm -o ~/Recon/$dm/SubdomainEnumeration/sublist3r.txt   
 sleep 1
 
 #****************************************************************************#

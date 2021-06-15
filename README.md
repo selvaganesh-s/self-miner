@@ -7,7 +7,7 @@ self minner tool Installnation steps:
   2) cd self-miner
   3) chmod +x tools.sh
   4) ./tools-bash.sh
-  5) chmod +x miner.txt
+  5) chmod +x miner-bash.sh
   6) ./miner-bash.sh
   
    self-miner tool Example :

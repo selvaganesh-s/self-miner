@@ -6,9 +6,9 @@ self minner tool Installnation steps:
   1) git clone https://github.com/selvaganesh-s/self-miner.git
   2) cd self-miner
   3) chmod +x tools.sh
-  4) ./tools.sh
+  4) ./tools_bash.sh
   5) chmod +x miner.txt
-  6) ./miner_zsh.sh
+  6) ./miner_bash.sh
   
    self-miner tool Example :
     

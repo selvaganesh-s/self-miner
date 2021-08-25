@@ -38,7 +38,7 @@ sudo apt-get install python-argparse
 sudo apt install -y eyewitness
 sudo apt-get install -y jq
 sudo pip3 install arjun
-apt install cmake
+sudo apt install cmake
 
 
 echo "$Green Installing Golang"

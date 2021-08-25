@@ -60,6 +60,7 @@ git clone https://github.com/TheRook/subbrute.git
 git clone https://github.com/maurosoria/dirsearch.git
 git clone https://github.com/devanshbatham/ParamSpider
 git clone https://github.com/gwen001/github-search.git
+git clone https://github.com/BishopFox/h2csmuggler.git
 
 mkdir wordlists
 cd wordlists
@@ -126,6 +127,13 @@ cd urldedupe
 cmake CMakeLists.txt
 make
 sudo cp urldedupe /usr/local/bin/urldedupe
+cd ../
+
+cd h2csmuggler
+pwd > path.txt 
+ph=$(< path.txt)
+sudo ln -sf $ph/h2csmuggler.py /usr/local/bin/h2csmuggler
+sudo rm path.txt
 cd ../
 
 echo " $Green Installing Other tools"

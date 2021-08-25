@@ -38,7 +38,7 @@ sudo apt-get install python-argparse
 sudo apt install -y eyewitness
 sudo apt-get install -y jq
 sudo pip3 install arjun
-
+sudo apt install cmake
 
 echo "$Green Installing Golang"
 
@@ -51,6 +51,8 @@ source ~/.zshrc
 
 echo "SUBDOMAIN FINDERS"
 go get -u github.com/tomnomnom/assetfinder
+go get -u github.com/tomnomnom/anew
+go get -u github.com/tomnomnom/unfurl
 git clone https://github.com/Edu4rdSHL/findomain.git
 git clone https://github.com/aboul3la/Sublist3r.git
 git clone https://github.com/projectdiscovery/subfinder.git
@@ -118,6 +120,12 @@ pwd > path.txt
 ph=$(< path.txt)
 sudo ln -sf $ph/github-subdomains.py /usr/local/bin/github-subdomains
 sudo rm path.txt
+cd ../
+
+cd urldedupe
+cmake CMakeLists.txt
+make
+sudo cp urldedupe /usr/local/bin/urldedupe
 cd ../
 
 echo " $Green Installing Other tools"

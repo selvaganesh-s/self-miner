@@ -137,6 +137,7 @@ go get -u github.com/tomnomnom/httprobe
 go get -u github.com/ffuf/ffuf
 go get -u github.com/tomnomnom/gf
 git clone https://github.com/1ndianl33t/Gf-Patterns
+GO111MODULE=on go get -u -v github.com/bp0lr/gauplus 
 
 echo "export PATH=$PATH:/usr/local/bin/waybackurls" >> ~/.zshrc
 echo "export PATH=$PATH:/usr/local/bin/gau" >> ~/.zshrc

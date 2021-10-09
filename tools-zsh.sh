@@ -61,6 +61,7 @@ git clone https://github.com/maurosoria/dirsearch.git
 git clone https://github.com/devanshbatham/ParamSpider
 git clone https://github.com/gwen001/github-search.git
 git clone https://github.com/BishopFox/h2csmuggler.git
+git clone https://github.com/ameenmaali/urldedupe.git
 
 mkdir wordlists
 cd wordlists

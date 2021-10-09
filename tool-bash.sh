@@ -160,7 +160,7 @@ echo "export PATH=$PATH:/usr/local/bin/ffuf" >> ~/.bashrc
 source ~/.bashrc
 
 mkdir ~/.gf
-cp -r "/home/selvaganesh/go/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/examples" ~/.gf
+cp -r " source /home/selvaganesh/go/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/examples" ~/.gf
 cd "Gf-Patterns"
 cp *.json ~/.gf
 source ~/.gf

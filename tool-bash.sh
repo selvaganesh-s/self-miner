@@ -72,7 +72,7 @@ git clone https://github.com/fuzzdb-project/fuzzdb.git
 git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
 
 
-cd findomain
+cd Findomain
 cargo build --release
 sudo cp target/release/findomain /usr/bin
 cd ../
@@ -82,13 +82,15 @@ pwd > path.txt
 ph=$(< path.txt)
 sudo ln -sf $ph/sublist3r.py /usr/bin/sublist3r
 sudo rm path.txt
+
 cd subbrute
 pwd > path.txt
 ph=$(< path.txt)
 sudo cp $ph/resolvers.txt /usr/local/bin/
 rm path.txt
 cd ../
-cd ../
+
+
 cd subfinder/v2/cmd/subfinder
 go build
 sudo mv subfinder /usr/local/bin/

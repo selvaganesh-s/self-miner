@@ -82,7 +82,7 @@ pwd > path.txt
 ph=$(< path.txt)
 sudo ln -sf $ph/sublist3r.py /usr/bin/sublist3r
 sudo rm path.txt
-cd../
+cd ../
 
 cd subbrute
 pwd > path.txt

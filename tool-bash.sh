@@ -72,7 +72,7 @@ git clone https://github.com/fuzzdb-project/fuzzdb.git
 git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
 
 
-cd Findomain
+cd findomain
 cargo build --release
 sudo cp target/release/findomain /usr/bin
 cd ../

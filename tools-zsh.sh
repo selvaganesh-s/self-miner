@@ -152,7 +152,7 @@ echo "export PATH=$PATH:/usr/local/bin/gau" >> ~/.zshrc
 echo "export PATH=$PATH:/usr/local/bin/qsreplace" >> ~/.zshrc
 echo "export PATH=$PATH:/usr/local/bin/httprobe" >> ~/.zshrc
 echo "export PATH=$PATH:/usr/local/bin/gf" >> ~/.zshrc
-echo "/home/selvaganesh/go/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/gf-completion.zsh" >> ~/.zshrc
+echo "source /home/selvaganesh/go/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/gf-completion.zsh" >> ~/.zshrc
 echo "export PATH=$PATH:/usr/local/bin/ffuf" >> ~/.zshrc
 source ~/.zshrc
 

@@ -55,7 +55,6 @@ echo "SUBDOMAIN FINDERS"
 go get -u github.com/tomnomnom/assetfinder
 go get -u github.com/tomnomnom/anew
 go get -u github.com/tomnomnom/unfurl
-git clone https://github.com/ameenmaali/urldedupe.git
 git clone https://github.com/Edu4rdSHL/findomain.git
 git clone https://github.com/aboul3la/Sublist3r.git
 git clone https://github.com/projectdiscovery/subfinder.git

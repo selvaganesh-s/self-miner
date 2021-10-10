@@ -75,7 +75,7 @@ git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
 cd findomain
 cargo build --release
 sudo cp target/release/findomain /usr/bin
-cd ../
+cd ../../
 
 cd Sublist3r
 pwd > path.txt

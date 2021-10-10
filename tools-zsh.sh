@@ -150,6 +150,9 @@ go get -u github.com/tomnomnom/gf
 git clone https://github.com/1ndianl33t/Gf-Patterns
 GO111MODULE=on go get -u -v github.com/bp0lr/gauplus 
 
+sudo cp ~/go/bin/* /usr/local/bin
+
+
 echo "export PATH=$PATH:/usr/local/bin/waybackurls" >> ~/.zshrc
 echo "export PATH=$PATH:/usr/local/bin/gau" >> ~/.zshrc
 echo "export PATH=$PATH:/usr/local/bin/qsreplace" >> ~/.zshrc

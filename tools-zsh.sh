@@ -158,16 +158,18 @@ echo "export PATH=$PATH:/usr/local/bin/gau" >> ~/.zshrc
 echo "export PATH=$PATH:/usr/local/bin/qsreplace" >> ~/.zshrc
 echo "export PATH=$PATH:/usr/local/bin/httprobe" >> ~/.zshrc
 echo "export PATH=$PATH:/usr/local/bin/gf" >> ~/.zshrc
-echo "source /home/selvaganesh/go/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/gf-completion.zsh" >> ~/.zshrc
+echo "source $GOPATH/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/gf-completion.zsh" >> ~/.zshrc
 source ~/.zshrc
 echo "export PATH=$PATH:/usr/local/bin/ffuf" >> ~/.zshrc
 source ~/.zshrc
 
 mkdir ~/.gf
-cp -r "/home/selvaganesh/go/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/examples/*" ~/.gf
+cp -r "GOPATH/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/examples/*" ~/.gf
+cd Tools
 cd "Gf-Patterns"
 cp *.json ~/.gf
 source ~/.gf
+cd ../
 
 source ~/.zshrc
 echo "$Green 

@@ -70,6 +70,7 @@ cd wordlists
 git clone https://github.com/danielmiessler/SecLists.git
 git clone https://github.com/fuzzdb-project/fuzzdb.git
 git clone https://github.com/swisskyrepo/PayloadsAllTheThings.git
+cd ../
 
 
 cd findomain

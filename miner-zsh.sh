@@ -51,8 +51,8 @@ read dm
 mkdir -p ~/Recon/$dm
 cd ~/Recon/$dm
 echo 
-echo "$Red IF YOU NEED A GITHUB RECON PLEASE ENTER YOUR GITHUB BELOW
-           TOKEN IF NOT YOU CAN SKIP BY $Green ctrl + c "
+echo "$Red IF YOU NEED A GITHUB RECON PLEASE ENTER YOUR GITHUB TOKEN BELOW
+                    IF NOT YOU CAN SKIP BY $Green ctrl + c "
 sleep 2          
 echo
 echo "Enter Your Github Token"

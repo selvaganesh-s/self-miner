@@ -168,7 +168,7 @@ echo "export PATH=$PATH:/usr/local/bin/ffuf" >> ~/.bashrc
 source ~/.bashrc
 
 mkdir ~/.gf 2> /dev/null
-cp -r "#GOPATH/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/examples/*" ~/.gf
+cp -r $GOPATH/pkg/mod/github.com/tomnomnom/gf@v0.0.0-20200618134122-dcd4c361f9f5/examples/* ~/.gf
 cd Tools
 cd "Gf-Patterns"
 cp *.json ~/.gf
